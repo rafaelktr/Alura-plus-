@@ -10,10 +10,10 @@ background-color: var(--cor-de-fundo);
 color: var(--branco-principal)
 
  }
- *{
+ * {
      margin: 0;
     padding: 0;
- }
+  }
 
   .principal {
    background-image: url("img/Background.png");
@@ -22,6 +22,6 @@ color: var(--branco-principal)
   }
 
     .container {
-          height: 100vh;
+       height: 100vh;
    
     }
