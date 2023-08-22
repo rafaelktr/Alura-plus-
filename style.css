@@ -23,6 +23,8 @@ color: var(--branco-principal)
 
     .container {
        height: 100vh;
+       display:grid;
+       grind.template.columns: 50% 50%;
    
     }
 
@@ -31,5 +33,21 @@ color: var(--branco-principal)
       border-radius: 16px;
       padding: 1em;
       color:var(--branco-principal)
-      
+      display: block;
+
     }
+
+  .botao_secundario{
+
+    background-color:  transparent;
+    border: 2px solid var(--branco-principal);
+    border-radius: 16px;
+
+
+  }
+
+   .container  aviso  {
+
+
+    
+   }
